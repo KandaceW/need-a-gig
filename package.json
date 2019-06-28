@@ -11,7 +11,7 @@
     "client": "webpack-dev-server --hot --inline",
     "dev": "node server & webpack --watch",
     "server": "node server",
-    "start": "webpack && node server",
+    "start": "node server",
     "test": "jest --watchAll"
   },
   "babel": {
